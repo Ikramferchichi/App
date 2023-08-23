@@ -1,0 +1,15 @@
+<div class="row mt-5">
+    <div class="col-3 mt-3">
+        <input type="text" [(ngModel)]="newHero.name" class="form-control"  placeholder="name">
+    </div>
+    <div class="col-3 mt-3">
+        <input type="number"   [(ngModel)]="newHero.power"  class="form-control"  placeholder="power">
+    </div>
+    <div class="col-3 mt-3">
+        <input type="file" (change)="SelectHero($event)"  class="form-control"  >
+    </div>
+    <div class="col-3 mt-3">
+        <input type="button" (click)="AjoutHeroImage()" class="btn btn-warning"  value="Ajouter">
+    </div>
+
+</div>

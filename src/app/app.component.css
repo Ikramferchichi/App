@@ -1,0 +1,24 @@
+h1{
+    color:pink;
+    text-align: center;
+}
+
+.active{
+    background-color: aquamarine;
+    color: aliceblue;
+    padding: 5px;
+
+}
+
+.highlight{
+    background-color:crimson ;
+    color: aliceblue;
+    padding: 15px;
+}
+
+.btns{
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
